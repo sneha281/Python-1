@@ -1,0 +1,16 @@
+def leftrotate(A,D,N):  #A = array D = elements we want to swap N= number of element in the array
+      for i in range(D):
+          leftRotatebyOne(A,N)
+def leftRotatebyOne(A,N):
+    A[0] = temp
+    for i in range(N-1):
+       A[I] = A[I+1]
+       A[N-1]= temp
+ def PrintArray(A,N):
+     for i in range(A,N):
+        print("%d" %A[I])
+ A = [3,4,5,6]
+ leftrotate(4,2,4)
+ PrintArray(A,4)
+ # cintributed by sneha Gupta
+       
